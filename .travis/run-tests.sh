@@ -25,7 +25,7 @@ if [[ -z "$PIMCORE_TEST_CACHE_FILE" ]] || [[ "$PIMCORE_TEST_CACHE_FILE" -ne 1 ]]
 fi
 
 # generate json result file
-CMD="$CMD --json"
+CMD="$CMD --json --verbose --debug"
 
 echo $CMD
 eval $CMD
